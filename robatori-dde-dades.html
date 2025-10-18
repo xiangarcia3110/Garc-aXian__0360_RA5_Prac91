@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Robatori de dades</title>
+  <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-opacity="0.95" stroke-width="1.2"/>
+          <rect x="8" y="8" width="8" height="8" rx="1" fill="white" fill-opacity="0.12"/>
+          <g stroke="white" stroke-opacity="0.6" stroke-width="0.9">
+            <path d="M2 10h2" />
+            <path d="M20 10h2" />
+            <path d="M2 14h2" />
+            <path d="M20 14h2" />
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path d="M10 20v2" />
+            <path d="M14 20v2" />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Robatori de dades</h1>
+        <p class="lead">Investigarem sobre els difernts robatoris de dades i com ens afecten.</p>
+      </div>
+    </header>
+      <div class="binary">
+  <script>
+    const binary=document.currentScript.parentElement;
+    for(let i=0;i<40;i++){
+      const d=document.createElement('div');
+      d.className='col';
+      d.style.left=(i*2.5)+'%';
+      d.textContent='0101011010010110101010010101101001010101101010010101011010';
+      d.style.animationDelay=Math.random()*2+'s';
+      binary.appendChild(d);
+    }
+  </script>
+</div>
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro" style="margin-top:0">Presentación</h2>
+      <p>El robatori de dades, ocurreix quan una persona no autoritzada accedeix, copia, roba i divulga informació privada o confidencial sense permisos. Les dades robades, poden ser personals, financiers, empresarials o inclús informació gobernamental.</p>
+      <nav>
+        <a class="btn" href="index.html">Index</a>
+        <a class="btn" href="ciberseguretat.html">Ciberseguretat</a>
+      </nav>
+    </section>
+    <section class="card timeline" aria-label="Línea del tiempo">
+      <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Atacs a bases de dades o servidors</h3>
+          <time>Els hackers poden aprofitar vulnerabilitats per accedir a grans volumens de dades emmagatzemades per empreses o organitzacions.</time>
+          <p>Protecció: 
+            <ul>
+                <li>
+                    Xifrar dades sensibles.
+                </li>
+                <li>
+                    Implementar firewalls i monitoratge de seguretat.
+                </li>
+                <li>
+                    Actualitzar software i contrasenyes regularment.
+                </li>
+            </ul>
+          </p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Robatori de dispositius</h3>
+          <time>Si algú roba el teu ordinador, mòbil o USB, pot accedir a les dades emmagatzemades.</time>
+          <p>Protecció: 
+            <ul>
+                <li>
+                    Utilitzar contrasenyes segures i bloqueig automàtic.
+                </li>
+                <li>
+                    Xifrar els teus discos o carpetes importants.
+                </li>
+                <li>
+                    Habilitar l'opció de borrat remot. 
+                </li>
+            </ul>
+          </p>
+        </div>
+      </article>
+    <footer>
+      <p>Xian García Salvador 1r EE30 Mòdul 0360 – Equips microinformàtics</p>
+    </footer>
+  </div>
+</body>
+</html>

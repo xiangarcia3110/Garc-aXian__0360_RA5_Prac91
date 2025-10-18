@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virus</title>
+  <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-opacity="0.95" stroke-width="1.2"/>
+          <rect x="8" y="8" width="8" height="8" rx="1" fill="white" fill-opacity="0.12"/>
+          <g stroke="white" stroke-opacity="0.6" stroke-width="0.9">
+            <path d="M2 10h2" />
+            <path d="M20 10h2" />
+            <path d="M2 14h2" />
+            <path d="M20 14h2" />
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path d="M10 20v2" />
+            <path d="M14 20v2" />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Virus</h1>
+        <p class="lead">Investigarem sobre els difernts virus i com ens afecten.</p>
+      </div>
+    </header>
+      <div class="binary">
+  <script>
+    const binary=document.currentScript.parentElement;
+    for(let i=0;i<40;i++){
+      const d=document.createElement('div');
+      d.className='col';
+      d.style.left=(i*2.5)+'%';
+      d.textContent='0101011010010110101010010101101001010101101010010101011010';
+      d.style.animationDelay=Math.random()*2+'s';
+      binary.appendChild(d);
+    }
+  </script>
+</div>
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro" style="margin-top:0">Presentación</h2>
+      <p>Els virus informàtics són programes o fragments de codi maliciós creats per alterar el funcionament normal d'un ordinador sense el permís de l'usuari. 
+        Tenen la capacitat de copiar-se i propagar-se a altres fitxers, programes o dispositius, causant danys com la pèrdua d'informació, el mal funcionament del sistema o el robatori de dades.
+        Igual que un virus biològic, necessiten "infectar" altres programes o sistemes per reproduir-se i estendre's, ja sigui a través de memòries USB, correus eletcrònics, descàrregues o pàgines web no segures.</p>
+      <nav>
+        <a class="btn" href="index.html">Index</a>
+        <a class="btn" href="ciberseguretat.html">Ciberseguretat</a>
+      </nav>
+    </section>
+    <section class="card timeline" aria-label="Línea del tiempo">
+      <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Virus d'arxiu</h3>
+          <time>S'adjunta a programes o documents i s'activa en obrir-los.</time>
+          <p>Afecta negatiu: Danya o elimina arxius del sistema.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Cuc</h3>
+          <time>Es replica sol i es propaga per xarxes o correus electrònics.</time>
+          <p>Afecta negatiu: Ralentitza o satura ordinadors i xarxes.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="hoy" class="item" aria-labelledby="t4">
+        <div class="badge" aria-hidden="true">
+          <!-- cloud + ai icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 14a4 4 0 0 1 8 0h2a3 3 0 0 0 0-6 5 5 0 0 0-9.9 1.2" stroke="white" stroke-opacity="0.9" stroke-width="0.9" fill="none"/>
+            <circle cx="16" cy="16" r="2" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t4">Troià</h3>
+          <time>Es disfressa de programa útil però obre una porta a l'atacant.</time>
+          <p>Afecta negatiu: Permet el robatoru o la modificació d'informació.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+       <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Adware</h3>
+          <time>Mostra publicitat no desitjada i recull dades de l'usuari.</time>
+          <p>Afecta negatiu: ITorna lent el sistema i pot comprometre la privadesa.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Boot o virus d'arrencada</h3>
+          <time>Infecta el sector d'inici del disc dur.</time>
+          <p>Afecta negatiu: Impedeix que el sistema operatiu arrenqui correctament.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+       <article id="hoy" class="item" aria-labelledby="t4">
+        <div class="badge" aria-hidden="true">
+          <!-- cloud + ai icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 14a4 4 0 0 1 8 0h2a3 3 0 0 0 0-6 5 5 0 0 0-9.9 1.2" stroke="white" stroke-opacity="0.9" stroke-width="0.9" fill="none"/>
+            <circle cx="16" cy="16" r="2" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t4">Macro virus</h3>
+          <time>Infecta documents de programes com Word o excel mitjançant macros.</time>
+          <p>Afecta negatiu: Es propaga ràpidament a altres arxius i equips.</p>
+        </div>
+      </article>
+    <footer>
+      <p>Xian García Salvador 1r EE30 Mòdul 0360 – Equips microinformàtics</p>
+    </footer>
+  </div>
+</body>
+</html>

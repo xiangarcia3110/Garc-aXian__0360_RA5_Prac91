@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atacs</title>
+  <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-opacity="0.95" stroke-width="1.2"/>
+          <rect x="8" y="8" width="8" height="8" rx="1" fill="white" fill-opacity="0.12"/>
+          <g stroke="white" stroke-opacity="0.6" stroke-width="0.9">
+            <path d="M2 10h2" />
+            <path d="M20 10h2" />
+            <path d="M2 14h2" />
+            <path d="M20 14h2" />
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path d="M10 20v2" />
+            <path d="M14 20v2" />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Atacs</h1>
+        <p class="lead">Investigarem sobre els difernts atacs i com ens afecten.</p>
+      </div>
+    </header>
+    <div class="binary">
+  <script>
+    const binary=document.currentScript.parentElement;
+    for(let i=0;i<40;i++){
+      const d=document.createElement('div');
+      d.className='col';
+      d.style.left=(i*2.5)+'%';
+      d.textContent='0101011010010110101010010101101001010101101010010101011010';
+      d.style.animationDelay=Math.random()*2+'s';
+      binary.appendChild(d);
+    }
+  </script>
+</div>
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro" style="margin-top:0">Presentación</h2>
+      <p>Els atacs informàtics són accions que realitzen persones o programes malintencionats per causar danys, robar o alterar informació i sistemes. Aquests atacs poden afectar tant a empreses com a usuaris comuns.</p>
+      <nav>
+        <a class="btn" href="index.html">Index</a>
+        <a class="btn" href="ciberseguretat.html">Ciberseguretat</a>
+      </nav>
+    </section>
+    <section class="card timeline" aria-label="Línea del tiempo">
+      <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Phishing</h3>
+          <time>Engany a través de correus o missatges falsos per obtenir contrasenya o dades personals.</time>
+          <p>Afecta negatiu: Pot provocar robatori d'identitat o pèrdua de diners.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Ransomware</h3>
+          <time>Bloqueja els fitxers de l'usuari i demana diners (rescat) per recuperarl-los.</time>
+          <p>Afecta negatiu: Provoca pèrdua de dades importants o danys econòmics.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="hoy" class="item" aria-labelledby="t4">
+        <div class="badge" aria-hidden="true">
+          <!-- cloud + ai icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 14a4 4 0 0 1 8 0h2a3 3 0 0 0 0-6 5 5 0 0 0-9.9 1.2" stroke="white" stroke-opacity="0.9" stroke-width="0.9" fill="none"/>
+            <circle cx="16" cy="16" r="2" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t4">Spyware (Espionatge Digital)</h3>
+          <time>Programari ocult que recopila informació sense consentiment.</time>
+          <p>Afecta negatiu: Roba dades personals o empresarials.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+       <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Atac DDoS</h3>
+          <time>Saturació d'un servidor o pàgina web perquè deixi de funcionar.</time>
+          <p>Afecta negatiu: Interromp serveis o fa inaccessibles llocs web.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Enginyeria social</h3>
+          <time>Manipiuladció priscològica per enganyar les persones i obtenir informació confidencial.</time>
+          <p>Afecta negatiu: Permet l'accés a sistemes o comptes protegits.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+       <article id="hoy" class="item" aria-labelledby="t4">
+        <div class="badge" aria-hidden="true">
+          <!-- cloud + ai icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 14a4 4 0 0 1 8 0h2a3 3 0 0 0 0-6 5 5 0 0 0-9.9 1.2" stroke="white" stroke-opacity="0.9" stroke-width="0.9" fill="none"/>
+            <circle cx="16" cy="16" r="2" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t4">Robatori de contrasenyes</h3>
+          <time>Ús de programes o tècniques per endevinar o desxifrar claus.</time>
+          <p>Afecta negatiu: Permet accedir a comptes personals o bancaris.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="segunda-era" class="item" aria-labelledby="t2">
+        <div class="badge" aria-hidden="true">
+          <!-- chip icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="1.5" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h4M18 12h4M12 2v4M12 18v4" stroke="white" stroke-opacity="0.65" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t2">Sniffing o espionatge de xarxa</h3>
+          <time>Intercepta la informació que viatja per una xarxa com ara contrasenyes o missatges.</time>
+          <p>Afecta negatiu: Compromet la seguretta i privadesa dels usuaris.</p>
+        </div>
+      </article>
+      <br>
+      <br>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <!-- globe icon -->
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <h3 id="t3">Spoofing</h3>
+          <time>Suplantació d'identitat d'una web, correu o usuari, per enganyar al receptor.</time>
+          <p>Afecta negatiu: PFacilita el robatoru d'informació o accessos il·legalment.</p>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <p>Xian García Salvador 1r EE30 Mòdul 0360 – Equips microinformàtics</p>
+    </footer>
+  </div>
+</body>
+</html>

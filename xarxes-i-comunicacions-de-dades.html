@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xarxes i comunicacions de dades</title>
+  <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-opacity="0.95" stroke-width="1.2"/>
+          <rect x="8" y="8" width="8" height="8" rx="1" fill="white" fill-opacity="0.12"/>
+          <g stroke="white" stroke-opacity="0.6" stroke-width="0.9">
+            <path d="M2 10h2" />
+            <path d="M20 10h2" />
+            <path d="M2 14h2" />
+            <path d="M20 14h2" />
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path d="M10 20v2" />
+            <path d="M14 20v2" />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Xarxes i comunicacions de dades</h1>
+        <p class="lead">Investigarem sobre les xarxes i la comunicació de dades.</p>
+      </div>
+    </header>
+    <div class="binary">
+  <script>
+    const binary=document.currentScript.parentElement;
+    for(let i=0;i<40;i++){
+      const d=document.createElement('div');
+      d.className='col';
+      d.style.left=(i*2.5)+'%';
+      d.textContent='0101011010010110101010010101101001010101101010010101011010';
+      d.style.animationDelay=Math.random()*2+'s';
+      binary.appendChild(d);
+    }
+  </script>
+</div>
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro" style="margin-top:0">Presentación</h2>
+      <p>Les xarxes informàtiques permeten la interconnexió d'ordinadors i dispositiur per compartir informació i recursos. Inclou: 
+        <ul>
+            <li>Xarxes i comunicacions de dades informàtiques</li>
+            <li>Què és una xarxa informàtica</li>
+            <li>Tipus de xarxes segons el seu tamany</li>
+            <li>Comunicacions de dades</li>
+            <li>Importancia</li>
+        </ul>
+      </p>
+      <nav>
+        <a class="btn" href="index.html">Index</a>
+        <a class="btn" href="xarxesicomunicacionsdedadesinformatiques.html">Xarxes i comunicacions de dades informàtiques</a>  
+        <a class="btn" href="que-es-una-xarxa-informatica.html">Què es una xarxa informàtica</a>  
+        <a class="btn" href="tipus-de-xarxa-segons-el-seu-tamany.html">Tipus de xarxa segons el seu tamany</a> 
+        <a class="btn" href="comunicacions-de-dades.html">Comunicacions de dades</a>
+        <a class="btn" href="importancia.html">Importancia</a>
+      </nav>
+    </section>
+    <footer>
+      <p>Xian García Salvador 1r EE30 Mòdul 0360 – Equips microinformàtics</p>
+    </footer>
+  </div>
+</body>
+</html>

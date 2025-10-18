@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aplicacions</title>
+  <link rel="stylesheet" href="estils.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" stroke-opacity="0.95" stroke-width="1.2"/>
+          <rect x="8" y="8" width="8" height="8" rx="1" fill="white" fill-opacity="0.12"/>
+          <g stroke="white" stroke-opacity="0.6" stroke-width="0.9">
+            <path d="M2 10h2" />
+            <path d="M20 10h2" />
+            <path d="M2 14h2" />
+            <path d="M20 14h2" />
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path d="M10 20v2" />
+            <path d="M14 20v2" />
+          </g>
+        </svg>
+      </div>
+      <div>
+        <h1>Aplicacions</h1>
+        <p class="lead">Investigarem quines son les seves aplicacions.</p>
+      </div>
+    </header>
+    <div class="binary">
+  <script>
+    const binary=document.currentScript.parentElement;
+    for(let i=0;i<40;i++){
+      const d=document.createElement('div');
+      d.className='col';
+      d.style.left=(i*2.5)+'%';
+      d.textContent='0101011010010110101010010101101001010101101010010101011010';
+      d.style.animationDelay=Math.random()*2+'s';
+      binary.appendChild(d);
+    }
+  </script>
+</div>
+    <section class="card" aria-labelledby="intro">
+      <h2 id="intro" style="margin-top:0">Presentación</h2>
+      <p>S'utilitza en l'educació, la medicina, la industria, les empreses, la ciencia i el entreteniment, entre molts altres àmbits.</p>
+      <nav>
+        <a class="btn" href="index.html">Index</a>
+        <a class="btn" href="aplicacions-i-usos.html">Aplicacions i usos</a>
+      </nav>
+    </section>
+
+    <section class="card timeline" aria-label="Línea del tiempo">
+<h1>Aplicacions</h1>
+      <article id="internet-era" class="item" aria-labelledby="t3">
+        <div class="badge" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="white" stroke-opacity="0.9" stroke-width="0.9"/>
+            <path d="M2 12h20M12 2c2 4 2 8 0 16" stroke="white" stroke-opacity="0.6" stroke-width="0.9"/>
+          </svg>
+        </div>
+        <div class="content">
+          <time>En les empreses 🏢</time>
+          <p>S'utilitza per gestionar informació, controlar inventaris, realitzar vendes, portar la comptabilitat i comunicar-se internament. Programes com fulls de càlcul, bases de dades i programari de gestió que ajuden a millorar la productivitat.</p>
+          <br>
+          <time>En l'educació 🎓</time>
+          <p>Facilita laprenentatge amb plataformes digitals, classes virtuals i materials interactius, Els estudiants poden accedir a informació, fer investigacions i aprendre de manera més dinàmica.</p>
+          <br>
+          <time>En la medicina ⚕️</time>
+          <p>S'utilitza per emmagatzemar historials mèdics, realitzardignòstics amb ajuda d'ordinadors, controlar equips mèdics i desenvolupar investigacions científiques. També permet consultes mèdiques a distància(telemedicina)</p>
+          <br>
+          <time>En la indústria ⚙️</time>
+          <p>La informàtica controla processos de producció mitjançat sistemes automatitzats i robots. Això millora la precisió, la velocitat i la seguretat a fàbriques i emprese tecnològiques</p>
+          <br>
+          <time>En la comunicació 🌐</time>
+          <p>Permet la connexió entre persones a tot el món a través de correus electrònics, xarxes socials, videotrucades i missatgeria instntània.</p>
+          <br>
+          <time>En l'entreteniment 🎮</time>
+          <p>S'aplica en la creació de videojocs, pel·lícules animades, efectes especials, música digital i plataformes de streaming.</p>
+          <br>
+          <time>En la investigació i la ciència 🧠</time>
+          <p>Els científics utilitzen la informàtica per simular experiments, analitzar dades, crear models matemàtics i desenvolupar noves tecnologies.</p>
+          <br>
+          <time>En el govern</time>
+          <p>Permet els sistemaes de gestió pública, registres digitals i serveis en linia.</p>
+        </div>
+      </article>
+    </section>
+   <footer>
+      <p>Xian García Salvador 1r EE30 Mòdul 0360 – Equips microinformàtics</p>
+    </footer>
+  </div>
+</body>
+</html>
